@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SoccerSlam</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="exit">Exit</string>
+    <string name="action_register">Register</string>
+    <string name="not_registered">Not registered?</string>
+    <string name="signup">Click here</string>
+    <string name="firstname">Enter your first name</string>
+    <string name="lastname">Enter your last name</string>
+    <string name="email">Enter your email</string>
+    <string name="phone">Enter your phone number</string>
+    <string name="enterpass">Enter your password</string>
+    <string name="reg">Sign up</string>
+</resources>
