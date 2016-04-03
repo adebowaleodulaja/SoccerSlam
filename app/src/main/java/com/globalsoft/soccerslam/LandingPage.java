@@ -2,6 +2,7 @@ package com.globalsoft.soccerslam;
 
 //import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +24,11 @@ public class LandingPage extends Activity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Hey! you just clicked me...", Toast.LENGTH_LONG).show();
+
+                Intent regIntent = new Intent(getApplicationContext(),Register.class);
+                regIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(regIntent);
+                //Toast.makeText(getApplicationContext(), "Hey! you just clicked me...", Toast.LENGTH_LONG).show();
             }
         });
     }
