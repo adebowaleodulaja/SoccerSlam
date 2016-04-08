@@ -39,5 +39,37 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGrp"
+        android:orientation="vertical"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="40dp">
+        <RadioButton android:id="@+id/radio_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"/>
+        <RadioButton android:id="@+id/radio_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+        <RadioButton android:id="@+id/radio_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:text="Submit"
+        android:id="@+id/btnSubmit"
+        style="@style/button_text"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/radioGrp"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
